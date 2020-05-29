@@ -12,7 +12,7 @@ public class CEO implements Employee {
         if (amount <= this.maxApprovalAmount) {
             System.out.println("\nCEO approved\n");
         } else {
-            System.out.println("Can't process more than 1 Crore!!\n");
+            System.out.println("Can't process more than " + this.maxApprovalAmount + "beyond!!\n");
         }
         return true;
     }
